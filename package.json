@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mannywq/mongotest/issues"
   },
-  "homepage": "https://github.com/mannywq/mongotest#readme"
+  "homepage": "https://github.com/mannywq/mongotest#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.10"
+  }
 }

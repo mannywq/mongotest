@@ -1,16 +1,17 @@
 const mongoose = require ('mongoose')
+require('dotenv').config()
 
 if (process.argv.length <3) {
 
-    console.log('Usage: node mongo.js password')
+    console.log('Usage: node mongo.js <name> <number>')
     process.exit(1)
 }
 
-const password = process.argv[2]
+const password = process.env.PASSWORD
 
-const name = process.argv[3]
+const name = process.argv[2]
 
-const phone = process.argv[4]
+const phone = process.argv[3]
 
 const url = `mongodb+srv://mannywq:${password}@mannywq.5xaev.mongodb.net/phonebook?retryWrites=true&w=majority`
 
