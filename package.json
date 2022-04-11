@@ -1,0 +1,19 @@
+{
+  "name": "mongotest",
+  "version": "0.0.1",
+  "description": "testing some mongo stuff",
+  "main": "mongo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannywq/mongotest.git"
+  },
+  "author": "manny wq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannywq/mongotest/issues"
+  },
+  "homepage": "https://github.com/mannywq/mongotest#readme"
+}
